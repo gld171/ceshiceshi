@@ -1,0 +1,489 @@
+<!DOCTYPE html
+<html lang="en">
+<head>
+    <style>
+    /* body{
+        background-color: rgb(228, 242, 255);
+    } */
+    h1{
+        text-align: center;
+        color:#993500;
+        font-size: 60px;
+        font-family: 'Avenir Light';
+    }
+     img {
+			display: block;
+			margin: 0 auto;
+		}
+     p {
+    padding: 10px 100px;
+    color: rgb(77, 85, 68);
+    font-size: 23px;
+    font-family: "Avenir Light";
+    text-indent: 2em;
+    text-align: center;
+
+
+
+    /* margin-top: px; */
+}
+.button-on{
+    color: white;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	border: none;
+	cursor: pointer; 
+    background-color:  #99B0AF;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+    float: right;
+	margin-top: -223px;
+    
+}
+.button-close{
+    color: white;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	border: none;
+	cursor: pointer; 
+    background-color: #99B0AF;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+    float: right;
+	margin-top:-200px;
+}
+#box{
+    width: 1400px;
+    height: 2087px;
+    /* background-color: #FAF7E3; */
+    margin: 0 auto;
+    display: none;
+}
+.text{
+    margin:0 auto;
+}
+
+
+/* a{
+    text-decoration: none;
+    display: block;
+    color: rgb(30,144,210);
+    width: 580.5px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+} */
+
+
+
+
+.bball,.bbtest{
+	background-color:#EFD391;	
+}
+.all,.test,.res{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.all h1{
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+.all img,.test img{
+	display: block;
+	margin: 0 auto;
+}
+.all p{
+	padding: 10px 100px;
+	color: #000;
+	font-size: 17px;
+	font-family: "微软雅黑";
+	text-indent: 2em;
+}
+.all a{
+	text-decoration: none;
+    font-family: 'Avenir Light';
+
+}
+.all button,.res button{
+	color: white;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	border: none;
+	cursor: pointer; 
+}
+.all button{
+	background-color: #99B0AF;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.res button{
+	float: right;
+	margin-top: 90px;
+    background-color: #99B0AF;
+}
+
+
+.test h2{
+    text-align: center;
+	color:rgb(77, 85, 68);
+	margin-bottom: 40px;
+    font-size:45px;
+    /* font-family:"Avenir Light"; */
+}
+.test p{
+	color: rgb(73, 74, 75);
+	font-size: 25px;
+	font-family: "微软雅黑";
+	/* padding-left: 200px; */
+    text-align: center;
+}
+.test .test-cho{
+	margin-top: 50px;
+	margin-left: 210px;
+    text-align: center;
+}
+.test .test-cho a{
+	text-decoration: none;
+	display: block;
+	color: rgb(113, 122, 101);
+	width: 580.5px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 20px;
+	text-align: center;
+    text-align: center;
+}
+.test .test-cho a:hover{
+	background-color: #99B0AF;
+	color: #000;
+    
+}
+.test .test-cho .test-cho1,.test .test-cho .test-cho3{
+	border: 1px solid rgb(102, 102, 102);
+    text-align: center;
+}
+.test .test-cho .test-cho2{
+	border-left: 1px solid rgb(102, 102, 102);
+	border-right: 1px solid rgb(102, 102, 102);
+    text-align: center;
+}
+
+.res h2{
+	text-align: center;
+	margin-bottom: 100px;
+}			
+.res img{
+	float: left;
+	margin-top: 30px;
+	margin-right: 80px;
+}
+.res .res-ack{
+	margin-top: 120px;
+}
+.res p,.res i{
+	font-size: 18px;
+	font-family: "微软雅黑";	
+}
+.res i{
+	font-style: normal;
+	font-weight: bold;
+}
+.res p{
+	text-indent: 2em;
+	line-height: 30px;
+}
+
+.bbttn{
+    color: white;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	border: none;
+	cursor: pointer; 
+    background-color:#BCC4CD;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+    float: right;
+	margin-top: 100px;
+}
+.bttt{
+    color: white;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	border: none;
+	cursor: pointer; 
+    background-color: #BCC4CD;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+    float: right;
+	margin-top: 74px;
+}
+
+.bbttnn{
+    color: white;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	border: none;
+	cursor: pointer; 
+    background-color: #BCC4CD;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+    float: right;
+	margin-top: 25px;
+}
+.bbttnn2{
+    color: white;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	border: none;
+	cursor: pointer; 
+    background-color: #8A99A8;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+    float: right;
+	margin-top:-380px;
+}
+
+
+#box2{
+    width: 800px;
+    height: 672px;
+    /* background-color: #FAF7E3; */
+    margin: 20px auto;
+    display:none;
+}
+.csjg{
+    text-align: center;
+    color:rgb(77, 85, 68);
+    font-size:45px;
+    margin-bottom: 40px;
+}   
+
+.boox{
+    width: 591px;
+    height: 345px;
+    /* background-color: #FAF7E3; */
+    margin: 0 auto;
+}
+.jgjg{
+    font-size:18px;
+}
+
+strong{
+    font-size:35px;
+    
+}
+#wzwz{
+    margin-top: -100px;
+}
+    </style>
+    <meta charset="UTF-8">
+    <title></title>
+
+
+    
+<body>
+    <!-- <h1>社恐自测</h1> -->
+    <!-- <h1>Social terrorism self-test</h1> -->
+    <!-- <img src="./images./QQ截图20220609141659.png" alt=""> -->
+    <div class="boox"></div>
+    <a href="#box">
+        <button class="button-on" onclick="javascript:turnon('box')" title="开启div">点击开启</button>
+    </a>
+        <p id="wzwz">
+            有些人讨厌面对人群或是害怕面对人群，他们不只是觉得害羞、不好意思，
+            <br>
+            <br>而是对自己以外的世界有着强烈的不安感和排斥感。 
+            <br>
+            <br>这种对社交生活和群体的不适应而产生的焦虑和社交障碍称作
+            <br>
+            <br>
+            <strong>"社交恐惧症" </strong>
+            <br>
+            <br>你的社恐指数有多高呢？一起测测吧！
+    </p>
+   
+    <!-- <button class="bbttnn2"onclick="javascript:turnoff('box2')"title="关闭div">close</button> -->
+<div id="box">
+        <div class="test">
+            <br>
+            <br>
+                <h2>你是否患社交恐惧</h2>
+                <p>1/8：你比起信别人，更相信自己吗？</p>	
+                <!-- <div><img src="./images./QQ截图20220609141659.png" height="300px"/></div> -->
+                <div class="test-cho">
+                    <a href="#two" class="test-cho1">是的+2分</a>
+                    <a href="#two" class="test-cho2">不是+0分</a>
+                    <a href="#two" class="test-cho3">看情况+1分</a>
+                </div>
+                <p id="two">2/8:你谈过多少次恋爱？</p>
+                <div class="test-cho">
+                        <a href="#three" class="test-cho1"> 1-2次——+1分</a>
+                        <a href="#three" class="test-cho2">3次及以上——+0分</a>
+                        <a href="#three" class="test-cho3">没谈过——+2分</a>
+                    </div>
+    
+                <p id="three">3/8:你觉得自己的人际抗压能力怎么样？</p>
+                <div class="test-cho">
+                        <a href="#four" class="test-cho1">比较强——+0分</a>
+                        <a href="#four" class="test-cho2">比较弱——+2分</a>
+                        <a href="#four" class="test-cho3">不确定——+1分</a>
+                </div>
+    
+                <p id="four">4/8:这个周末你打算看电影来度过，这时候有人约你出去，你会：</p>
+                <div class="test-cho">
+                        <a href="#five" class="test-cho1">好呀去呀——+0分</a>
+                        <a href="#five" class="test-cho2">可能会去，但不太想——+1分</a>
+                        <a href="#five" class="test-cho3">拒绝对方——+2分</a>
+                </div>
+    
+    
+                <p id="five">5/8. 聚会快散场的时候，你通常是：</p>
+                <div class="test-cho">
+                        <a href="#six" class="test-cho1">不想走，想再玩一会儿——+0分</a>
+                        <a href="#six" class="test-cho2">提前走，想快点回家——+2分</a>
+                        <a href="#six" class="test-cho3">看情况——+1分</a>
+                </div>
+    
+    
+    
+                <p id="six">6/8. 你更不愿意和以下哪种人来往？：</p>
+                <div class="test-cho">
+                        <a href="#sever" class="test-cho1">冷漠的人——+0分</a>
+                        <a href="#sever" class="test-cho2">八卦的人——+2分</a>
+                        <a href="#sever" class="test-cho3">柔弱的人——+1分</a>
+                </div>
+    
+    
+                <p id="sever">7/8. 遇到困难时，你不习惯向别人求助？：</p>
+                <div class="test-cho">
+                        <a href="#end" class="test-cho1">是的——+2分</a>
+                        <a href="#end" class="test-cho2">不是——+0分</a>
+                        <a href="#end" class="test-cho3">还好——+1分</a>
+                </div>
+    
+                <p id="end">8/8. 如果有机，你更愿意去哪里旅游？：</p>
+                <div class="test-cho">
+                        <a href="#endend" class="test-cho1">繁华都市——+0分</a>
+                        <a href="#endend" class="test-cho2">阳光海滩——+1分</a>
+                        <a href="#endend" class="test-cho3">乡村小镇——+2分</a>
+                </div>
+                <!-- <button class="bbttnn"onclick="javascript:turnoff('box2')"title="关闭div">close</button> -->
+    
+                <a id="endend" href="#box2">
+                    <button class="bbttn"onclick="javascript:turnon('box2')" title="开启div">查看结果</button>
+                </a>
+            
+             
+            </div>
+
+</div>
+
+<div id="box2">
+    <br>
+    <br> 
+    <br>
+    <br>
+    <h2 class="csjg">测试结果</h2>
+    <p style="color: #666;" class="jgjg">
+            A
+
+            0-4分
+            
+            社恐指数：★☆☆☆☆
+            
+            你在人际交往方面基本不存在困难，可能你和有些人注定就是性格不合，
+            大家走不到一起，但是你并不会刻意回避社交，
+            相反你能够从容地应对绝大多数人，
+            和身边的人保持着良好的关系。
+    </p>
+    <p style="color: #666;" class="jgjg">
+            B
+
+            5-9分
+            
+            社恐指数：★★☆☆☆
+            
+            你有一定社交能力，并不害怕社交，但可能会懒得社交。
+            如果有时间，你更愿意做自己喜欢做的事情，
+            而一旦牵扯到别人，你就不得不考虑多一层，
+            有时候你会觉得很烦，索性就不掺和那么多人和事了。
+    </p>
+
+
+    <p style="color: #666;" class="jgjg">
+            C
+
+            10-13分
+            
+            社恐指数：★★★☆☆
+            
+            你是不太擅长跟别人打交道的人。在熟悉的环境中，
+            你还比较放得开，但是让你去跟不认识的人打交道，
+            你就完全不在行了。如果要出席一个陌生的场合，
+            你一般需要朋友陪着你才会比较安心，不然你会手足无措。
+    </p>
+
+    <p style="color: #666;"  class="jgjg">
+            D
+
+            14-16分
+            
+            社恐指数：★★★★☆
+            
+            对于习惯性回避社交的你来说，如果不用交际该是多么美好的一件事，
+            甚至你会想人们为什么要社交呢，大家各自过好自己的生活不好吗？
+            社交让你感到非常焦虑，哪怕在路上遇到认识的人，
+            你也想避开，说白了你只想自己一个人待着。
+    </p>
+
+
+    <a href="#box">
+
+    <button class="bttt">再测一次</button></a>
+
+</div>
+
+
+<script>
+    function turnoff(obj){
+	          document.getElementById(obj).style.display="none";
+		}
+    function turnon(obj){
+	          document.getElementById(obj).style.display="block";
+		}
+    // function turnoff(obj){
+    //     document.getElementById(obj).style.display="none"
+    // }
+    function turnon(obj){
+	          document.getElementById(obj).style.display="block";
+		}
+
+
+</script>
+
+</body>
+</head>
+</html>
